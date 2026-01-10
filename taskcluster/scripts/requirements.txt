@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes --output-file=taskcluster/scripts/requirements.txt taskcluster/scripts/requirements.in
 #
-aiohttp==3.9.0 \
+aiohttp==3.13.3 \
     --hash=sha256:05857848da443c8c12110d99285d499b4e84d59918a21132e45c3f0804876994 \
     --hash=sha256:05a183f1978802588711aed0dea31e697d760ce9055292db9dc1604daa9a8ded \
     --hash=sha256:09f23292d29135025e19e8ff4f0a68df078fe4ee013bca0105b2e803989de92d \
@@ -507,7 +507,7 @@ typing-extensions==4.12.2 \
     --hash=sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d \
     --hash=sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8
     # via multidict
-urllib3==2.0.7 \
+urllib3==2.6.3 \
     --hash=sha256:c97dfde1f7bd43a71c8d2a58e369e9b2bf692d1334ea9f9cae55add7d0dd0f84 \
     --hash=sha256:fdb6d215c776278489906c2f8916e6e7d4f5a9b602ccbcfdf7f016fc8da0596e
     # via requests
